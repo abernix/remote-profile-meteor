@@ -1,0 +1,18 @@
+{
+  "name": "remote-profile-meteor",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.3.4",
+    "meteor-node-stubs": "^0.4.1",
+    "react-dom": "^16.5.0",
+    "v8-profiler": "^5.7.0"
+  },
+  "meteor": {
+    "mainModule": {
+      "server": "server/main.js"
+    }
+  }
+}
